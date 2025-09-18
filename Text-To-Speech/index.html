@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to voice converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Text To Speech <span>Converter</span></h1>
+      
+      <textarea
+        placeholder="Type or paste text here..."
+        spellcheck="false"
+        id="text"
+      ></textarea>
+      
+        <div class="options">
+            <select>
+            <option value="en-IN">English - India</option>
+            <option value="en-GB">English - United Kingdom</option>
+            <option value="en-US">English - United States</option>
+            <option value="fr-FR">French - France</option>
+            <option value="de-DE">German - Germany</option>
+            <option value="it-IT">Italian - Italy</option>
+            <option value="ja-JP">Japanese - Japan</option>
+            <option value="ko-KR">Korean - Korea</option>
+            <option value="es-ES">Spanish - Spain</option>
+            <option value="zh-CN">Chinese - China</option>
+            <option value="hn-IN">Hindi - India</option>
+            </select>
+            <button class="btn"><i class="fa-solid fa-play"></i> Listen</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
