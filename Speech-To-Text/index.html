@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech-To-Text</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Speech To Text Converter</h1>
+      </header>
+
+      <main>
+        <input
+          type="text"
+          id="text-input"
+          placeholder="Your text will appear here..."
+        />
+      </main>
+
+      <footer>
+        <button id="start-btn"><i class="fa-solid fa-microphone"></i></button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="stop-btn"><i class="fa-solid fa-stop"></i></button>
+        <p class="info">Press "Start Recognition" and start speaking</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
